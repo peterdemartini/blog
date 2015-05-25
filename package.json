@@ -1,0 +1,38 @@
+{
+  "name": "peterdemartini-blog",
+  "version": "1.0.0",
+  "description": "Peter DeMartini's blog",
+  "main": "run.js",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "glob": "^5.0.9",
+    "handlebars": "^3.0.3",
+    "metalsmith": "^1.7.0",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-drafts": "^0.0.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.4.0",
+    "metalsmith-templates": "^0.7.0",
+    "metalsmith-watch": "^1.0.1",
+    "moment": "^2.10.3"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.2",
+    "gulp": "^3.8.11",
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "start": "node ./node_modules/gulp/bin/gulp.js watch",
+    "test": "echo \"No tests needed\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterdemartini/blog.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterdemartini/invincible-io/issues"
+  },
+  "homepage": "https://github.com/peterdemartini/invincible-io"
+}

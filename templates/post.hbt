@@ -1,0 +1,7 @@
+{{> header}}
+
+<div class="container">
+  {{> post-content}}
+</div>
+
+{{> footer}}

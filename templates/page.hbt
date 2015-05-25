@@ -1,0 +1,22 @@
+{{> header}}
+
+<div class="container page">
+  <article class="post-container {{post_class}}">
+    <header class="post-header">
+      <h1 class="post-title">{{title}}</h1>
+
+      <p class="blog-description">{{description}}</p>
+    </header>
+
+    <div class="post-content clearfix">
+      {{#if image}}
+        <img class="post-featured-image" src="{{image}}">
+      {{/if}}
+
+      {{{contents}}}
+
+    </div>
+  </article>
+</div>
+
+{{> footer}}

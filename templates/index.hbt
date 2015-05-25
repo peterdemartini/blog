@@ -1,0 +1,14 @@
+{{> header}}
+  <div id="latest-post" class="container">
+    {{#each collections.posts}}
+      {{#if @first}}
+        {{> post-content}}
+      {{/if }}
+    {{/each}}
+  </div>
+  <div id="post-index" class="container">
+      <ol class="post-list">
+          {{> loop}}
+      </ol>
+  </div>
+{{> footer}}

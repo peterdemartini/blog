@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+- '0.10'
+after_success:
+- node run.js
+cache:
+  bundler: true
+  directories:
+  - node_modules
+deploy:
+  provider: s3
+  access_key_id: AKIAI3AV72UK77JAREJQ
+  secret_access_key:
+    secure: ILs/nioJhv1wrlguL8Q1EZAO1QCC42ED+eKAnl6JDJTLppmw2gDL8UMrKW+p6DZ8v6kECQU5LzqSSSFLtdHM6GI1fIR9Xbia4uRZaFN/DBqRom9gAQ58as29O7SCPbLD+wyCWeTxwyp4M8o+0ElfVktrdtyfu3Oj7C16ssr8B07d+IM0iNBuKsVEIGwCMTIPTbaU2QK7WUKwvlgzODJ83eWuOudzk3hJW+X1Q3OlXMp6/3qCp2Fo9GeZqSqw+qkgGn6d/+A7WL12MQNtwslGmjeqPBdaGsO4rg0amCuybOhOy6CmkhEVgSOQQfgkrc0zEG4kvOBb7n+hB6RgllipWfLUyiQ+8/SGIZS8rk8yrLHcJaeEsUXkspx+rzzi7E8F9H+oUnaqkT/9CPS4D5AaS0FKlr26Dzd/ZNOFj+qlN5GYjSgetx00i3zRP0MidwBCAkbISwAomXhnMkolwWf0/Xf4BbBBgnipQU76mkrmsFHL11h36P5udAqFGl8WBd6sAVIA3+4TiQ+ouDECHM2WQmxDCruDDbLke2plrwKs8vv6noOhwLuLa4fg7HrilSemVb6KhJQs/u9IPmwJaN+XrqpdtDaRCnmaDW7hSIMk0idBVZXi5+YtLBFMQf3BZRJoW8/A1Lmh/I+uGyqA2u79wiXYz0pVoL1k8l4jnFl3wyg=
+  bucket: peterdemartini.com
+  local-dir: build
+  acl: public_read
+  region: us-west-2
+  endpoint: s3-website-us-west-2.amazonaws.com
+  skip_cleanup: true
+  on:
+    repo: peterdemartini/blog

@@ -1,0 +1,5 @@
+<ul class="site-nav">
+  <li class="site-nav-item"><a class="js-ajax-link" title="{{meta_title}}" href="/">Latest Post</a></li>
+  <li class="site-nav-item"><a class="js-ajax-link js-show-index" title="{{meta_title}}" href="/">Browse Posts</a></li>
+  <li class="site-nav-item"><a class="js-ajax-link" title="{{meta_title}}" href="/about">About</a></li>
+</ul>
