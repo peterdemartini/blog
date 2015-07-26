@@ -4,7 +4,7 @@ drafts      = require 'metalsmith-drafts'
 markdown    = require 'metalsmith-markdown'
 permalinks  = require 'metalsmith-permalinks'
 templates   = require 'metalsmith-templates'
-debug       = require('debug')('invincible-io:build')
+debug       = require('debug')('peterdemartini:build')
 
 metadata   = require './metadata'
 collectionsMetadata = require './collections-metadata'

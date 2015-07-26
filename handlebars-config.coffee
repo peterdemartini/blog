@@ -3,7 +3,7 @@ moment     = require 'moment'
 glob       = require 'glob'
 path       = require 'path'
 fs         = require 'fs'
-debug      = require('debug')('invincible-io:handlebars')
+debug      = require('debug')('peterdemartini:handlebars')
 
 PARTIAL_DIR = __dirname + '/templates/partials'
 
