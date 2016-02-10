@@ -1,13 +1,11 @@
-    </div>
-  </div>
-  <footer class="footer">
-    <div class="container">
-      <div class="site-title-wrapper">
-        <h1 class="site-title"><a class="js-ajax-link" title="{{meta_title}}" href="{{meta_url}}">{{meta_title}}</a></h1>
-        <a class="button-square button-jump-top js-jump-top" href="#"><i class="fa fa-angle-up"></i></a>
+    </main>
+    <footer class="site-footer">
+      <div class="inner">
+      <section class="copyright">All content copyright <a href="{{meta_url}}">{{meta_title}}</a> &copy; 2016 &bull; All rights reserved.</section>
       </div>
-    </div>
-  </footer>
-
-</body>
+    </footer>
+    <script src="public/jquery.min.js%3Fv=1cfb30175f"></script>
+    <script type='text/javascript' src='/assets/highlighter/prettify.js'></script>
+    <script type='text/javascript' src='/assets/js/shell.js'></script>
+  </body>
 </html>

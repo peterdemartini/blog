@@ -6,6 +6,7 @@
   "dependencies": {
     "debug": "^2.2.0",
     "glob": "^5.0.9",
+    "gulp": "^3.9.1",
     "handlebars": "^3.0.3",
     "metalsmith": "^1.7.0",
     "metalsmith-collections": "^0.7.0",
@@ -18,7 +19,6 @@
   },
   "devDependencies": {
     "coffee-script": "^1.9.2",
-    "gulp": "^3.8.11",
     "gulp-webserver": "^0.9.1"
   },
   "scripts": {

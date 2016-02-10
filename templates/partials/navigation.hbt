@@ -1,5 +1,6 @@
 <ul class="site-nav">
-  <li class="site-nav-item"><a class="js-ajax-link" title="{{meta_title}}" href="/">Latest Post</a></li>
-  <li class="site-nav-item"><a class="js-ajax-link js-show-index" title="{{meta_title}}" href="/">Browse Posts</a></li>
-  <li class="site-nav-item"><a class="js-ajax-link" title="{{meta_title}}" href="/about">About</a></li>
+  <li><a href="/" title="{{meta_title}}">Home</a></li>
+  <li><a href="/about" title="{{meta_title}}: ">About</a></li>
+  <li><a href="http://resume.peterdemartini.com" title="{{meta_title}}">Resume</a></li>
+  <li><a href="/contact" title="Page: Contact">Contact</a></li>
 </ul>

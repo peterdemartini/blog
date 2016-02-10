@@ -1,28 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<script>
+     var d_id  = 'peterdemartini',
+         g_id  = 'UA-28352529-1',
+         g_url = 'peterdemartini.com';
+    </script>
+<title>{{meta_title}}</title>
+<meta name="description" content=""/>
+<meta name="HandheldFriendly" content="True"/>
+<meta name="MobileOptimized" content="320"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="/assets/highlighter/prettify.css%3Fv=1cfb30175f.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/screen.css%3Fv=1cfb30175f.css"/>
+<link rel="canonical" href="about"/>
+<meta property="og:site_name" content="{{meta_title}}"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="About"/>
+<meta property="og:description" content="{{meta_description}}"/>
+<meta property="og:url" content="http://peterdemartini.com/about/"/>
+<meta property="article:published_time" content="2014-09-01T15:33:04.279Z"/>
+<meta property="article:modified_time" content="2014-11-22T22:52:52.466Z"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="About"/>
+<meta name="twitter:description" content="{{meta_description}}"/>
+<meta name="twitter:url" content="http://peterdemartini.com/about/"/>
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Hacker Mentality",
+    "author": {
+        "@type": "Person",
+        "name": "Peter DeMartini",
+        "image": "//www.gravatar.com/avatar/62ebc98ad71eab41205dcdd92888ada9?d=404&s=250",
+        "url": "http://peterdemartini.com/author/peter-demartini",
+        "sameAs": null
+    },
+    "headline": "About",
+    "url": "http://peterdemartini.com/about/",
+    "datePublished": "2014-09-01T15:33:04.279Z",
+    "dateModified": "2014-11-22T22:52:52.466Z",
+    "description": "My name is Peter DeMartini. I am the owner of Superlative Code and I work for Octoblu. I love to create things; the more projects I have, the better. If I am not programming, I can usually be found brewing..."
+}
+    </script>
+<meta name="generator" content="Ghost 0.5"/>
+<link rel="alternate" type="application/rss+xml" title="Hacker Mentality" href="rss/index.html"/>
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  <title>{{meta_title}}</title>
-  <meta name="description" content="{{meta_description}}" />
+      ga('create', g_id, g_url);
+      ga('send', 'pageview');
 
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="MobileOptimized" content="320" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic" />
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-
+    </script>
 </head>
-<body>
-  <div id="wrapper">
-    <header class="site-header">
-      <div class="container">
-        <div class="site-title-wrapper">
-          <h1 class="site-title"><a class="js-ajax-link" title="{{meta_title}}" href="/">{{meta_title}}</a></h1>
-        </div>
-        {{> navigation}}
+<body class="post-template page-template page">
+  <header class="site-header">
+    {{> navigation}}
+  </header>
+  <header id="site-head">
+    <div class="vertical animated bounceInDown">
+      <div id="site-head-content" class="inner">
+        <a id="blog-logo" href="index.html"><img src="/assets/images/2014/Aug/BirdName-square.jpg" alt="Blog Logo"/></a>
+        <h1 class="blog-title">{{meta_title}}</h1>
+        <h2 class="blog-description about-me">{{meta_description}}</h2>
       </div>
-    </header>
-    <div id="ajax-container">
+    </div>
+  </header>
+  <main class="content" role="main">
