@@ -9,11 +9,12 @@ debug       = require('debug')('peterdemartini:build')
 metadata   = require './metadata'
 collectionsMetadata = require './collections-metadata'
 
+require './handlebars-config'
+
 class Builder
   constructor: ->
-    require './handlebars-config'
 
-  run: =>
+  run: (callback=->) =>
     debug 'Building site...'
 
     MetalSmith(__dirname)
@@ -23,8 +24,6 @@ class Builder
       .use markdown()
       .use permalinks(pattern: ':title')
       .use templates(engine: 'handlebars')
-      .build (error) =>
-        return throw error if error?
-        debug 'Successfully built site'
+      .build callback
 
 module.exports = Builder

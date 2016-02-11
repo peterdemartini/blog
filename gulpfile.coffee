@@ -2,11 +2,11 @@ gulp = require 'gulp'
 webserver = require 'gulp-webserver'
 Builder = require './build'
 
-gulp.task 'build', =>
+gulp.task 'build', (callback) =>
   builder = new Builder
-  builder.run()
+  builder.run callback
 
-gulp.task 'server', =>
+gulp.task 'run', ['build'], =>
   gulp.src './build'
     .pipe webserver({
       livereload: false
@@ -16,6 +16,3 @@ gulp.task 'server', =>
       host: '0.0.0.0'
       fallback: 'index.html'
     })
-
-gulp.task 'watch', ['build', 'server'], =>
-  gulp.watch ['./src/**/*', './templates/**/*'], ['build']
