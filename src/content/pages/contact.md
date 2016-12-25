@@ -4,10 +4,10 @@ date: 2015-07-12
 template: page.hbt
 ---
 
-**Email:** peter [at] superlativecode [dot] com
+**Email:** thepeterdemartini [at] gmail [dot] com
 
-**Skype:** peterdemartini
-
-**IRC:** PeterDeMartini
+**Github:** [PeterDeMartini](https://github.com/PeterDeMartini)
 
 **Twitter:** [PeterDeMartini](https://twitter.com/PeterDeMartini)
+
+**Facebook:** [PeterDeMartini](https://facebook.com/PeterDeMartini)

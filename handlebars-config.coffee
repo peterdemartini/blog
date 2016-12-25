@@ -21,8 +21,8 @@ glob "#{PARTIAL_DIR}/*.hbt", (error, files) =>
     format = block.hash.format || "MMM Do, YYYY";
     return moment(context).format(format)
 
-  Handlebars.registerHelper 'trimString', (passedString) =>
-    return unless passedString?
+  Handlebars.registerHelper 'trimString', (passedString='') =>
+    return unless passedString
     passedString = passedString.replace(/<(?:.|\n)*?>/gm, '')
     theString = passedString.substring 0,200
     theString = theString.replace(/^[a-zA-Z ]*$/g, '')

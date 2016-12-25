@@ -22,8 +22,8 @@
     "gulp-webserver": "^0.9.1"
   },
   "scripts": {
-    "start": "node ./node_modules/gulp/bin/gulp.js watch",
-    "test": "echo \"No tests needed\" && exit 0"
+    "start": "gulp run",
+    "test": "echo \"No tests needed\""
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/peterdemartini/invincible-io/issues"
+    "url": "https://github.com/peterdemartini/blog/issues"
   },
-  "homepage": "https://github.com/peterdemartini/invincible-io"
+  "homepage": "https://github.com/peterdemartini/blog"
 }
