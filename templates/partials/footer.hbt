@@ -1,7 +1,6 @@
     </main>
     <footer class="site-footer">
       <div class="inner">
-      <section class="copyright">All content copyright <a href="{{meta_url}}">{{meta_title}}</a> &copy; 2016 &bull; All rights reserved.</section>
       </div>
     </footer>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
