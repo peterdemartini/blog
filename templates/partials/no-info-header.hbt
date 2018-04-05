@@ -1,32 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <script>
-     var d_id  = 'peterdemartini',
-         g_id  = 'UA-28352529-1',
-         g_url = 'peterdemartini.com';
-  </script>
   <title>{{meta_title}}</title>
-  <meta name="description" content=""/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{meta_description}}"/>
   <meta name="HandheldFriendly" content="True"/>
   <meta name="MobileOptimized" content="320"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" type="text/css" href="/assets/highlighter/prettify.css%3Fv=1cfb30175f.css"/>
   <link rel="stylesheet" type="text/css" href="/assets/css/screen.css%3Fv=1cfb30175f.css"/>
-  <link rel="canonical" href="about"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/styles.css"/>
+  <link rel="canonical" href="/about" />
   <meta property="og:site_name" content="{{meta_title}}"/>
   <meta property="og:type" content="article"/>
   <meta property="og:title" content="About"/>
   <meta property="og:description" content="{{meta_description}}"/>
   <meta property="og:url" content="http://peterdemartini.com/about/"/>
   <meta property="article:published_time" content="2014-09-01T15:33:04.279Z"/>
-  <meta property="article:modified_time" content="2014-11-22T22:52:52.466Z"/>
+  <meta property="article:modified_time" content="2018-04-05T18:38:36.733Z"/>
   <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:title" content="About"/>
+  <meta name="twitter:title" content="Peter DeMartini Website"/>
   <meta name="twitter:description" content="{{meta_description}}"/>
-  <meta name="twitter:url" content="http://peterdemartini.com/about/"/>
+  <meta name="twitter:url" content="http://peterdemartini.com/about"/>
   <script type="application/ld+json">
   {
       "@context": "http://schema.org",
@@ -35,19 +30,22 @@
       "author": {
           "@type": "Person",
           "name": "Peter DeMartini",
-          "image": "//www.gravatar.com/avatar/62ebc98ad71eab41205dcdd92888ada9?d=404&s=250",
+          "image": "http://peterdemartini.com/assets/images/peter-demartini.jpg",
           "url": "http://peterdemartini.com/author/peter-demartini",
           "sameAs": null
       },
       "headline": "About",
       "url": "http://peterdemartini.com/about/",
       "datePublished": "2014-09-01T15:33:04.279Z",
-      "dateModified": "2014-11-22T22:52:52.466Z",
+      "dateModified": "2018-04-05T18:38:36.733Z",
       "description": "{{meta_description}}"
   }
   </script>
-  <meta name="generator" content="Ghost 0.5"/>
-  <link rel="alternate" type="application/rss+xml" title="Hacker Mentality" href="rss/index.html"/>
+  <script>
+     var d_id  = 'peterdemartini',
+         g_id  = 'UA-28352529-1',
+         g_url = 'peterdemartini.com';
+  </script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

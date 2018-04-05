@@ -2,5 +2,5 @@
   <li><a href="/" title="{{meta_title}}">Home</a></li>
   <li><a href="/about" title="{{meta_title}}: ">About</a></li>
   <li><a href="http://resume.peterdemartini.com" title="{{meta_title}}">Resume</a></li>
-  <li><a href="/contact" title="Page: Contact">Contact</a></li>
+  <li><a href="/connect" title="Page: Connect">Connect</a></li>
 </ul>

@@ -1,11 +1,7 @@
 {{> no-info-header}}
   <header id="site-head">
-    <div class="vertical animated bounceInDown">
-      <div id="site-head-content" class="inner">
-        <a id="blog-logo" href="index.html"><img src="/assets/images/2014/Aug/BirdName-square.jpg" alt="Blog Logo"/></a>
-        <h1 class="blog-title">{{meta_title}}</h1>
-        <h2 class="blog-description about-me">{{meta_description}}</h2>
-      </div>
-    </div>
+    <a id="blog-logo" href="/"><img src="/assets/images/peter-demartini.jpg" alt="Peter DeMartini Profile Picture"/></a>
+    <h1 class="blog-title">{{meta_title}}</h1>
+    <h2 class="blog-description about-me">{{meta_description}}</h2>
   </header>
   <main class="content" role="main">

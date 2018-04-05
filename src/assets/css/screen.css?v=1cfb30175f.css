@@ -238,6 +238,7 @@ table td {
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #424a5a;
+  border-bottom: 1px solid #424a5a;
 }
 table th {
   color: #000;
@@ -258,7 +259,6 @@ table table table {
 }
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-  background-color: #4f586b;
 }
 table.plain {
   tbody > tr:nth-child(odd) > td,
@@ -279,7 +279,6 @@ textarea {
 /* ==========================================================================
    3. Utilities - These things get used a lot
    ========================================================================== */
-
 /* Hides shit */
 .hidden {
   text-indent: -9999px;
@@ -307,17 +306,10 @@ textarea {
 
 /* Big cover image on the home page */
 #site-head {
-  position: relative;
-  display: table;
-  width: 100%;
-  height: 60%;
   padding-top: 1em;
-  margin-top: 1em;
-  margin-bottom: 0rem;
+  margin: auto;
   text-align: center;
   color: #a0add5;
-  background: #1c212b no-repeat center center;
-  background-size: cover;
 }
 
 /* Site Nav */
@@ -327,7 +319,7 @@ textarea {
   top: 0;
   left: 0;
   width: 100%;
-  height: 1.5em;
+  height: 5rem;
 }
 
 .site-nav {
@@ -342,13 +334,14 @@ textarea {
   display: inline-block;
   width: auto;
   height: auto;
-  padding: 0 10px;
+  padding: 0 1.5rem;
 }
 
 .site-nav li a {
   width: 100%;
   height: 100%;
-  font-size: 0.7em;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
@@ -391,6 +384,7 @@ textarea {
   line-height: 1.5em;
   font-weight: 300;
   letter-spacing: 0;
+  max-width: 80%;
 }
 
 /* About Me */
@@ -400,7 +394,7 @@ textarea {
   border: 1px solid #424a5a;
   background: #242937;
   border-radius: 2px;
-  margin: 2em;
+  margin: 2em auto;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
@@ -657,8 +651,9 @@ textarea {
 
 .site-footer {
   position: relative;
-  margin: 0rem 0 0 0;
-  padding: 4rem 0;
+  bottom: 0;
+  height: 4rem;
+  width: 100%;
   border-top: #1a1e27 1px solid;
   font-size: 1.3rem;
   line-height: 1.7em;
@@ -775,15 +770,6 @@ textarea {
 @media only screen and (max-width: 900px) {
   blockquote {
     margin-left: 0;
-  }
-
-  #site-head {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    height: auto;
-    min-height: 240px;
-    padding: 15% 0;
   }
 
   .blog-title {
