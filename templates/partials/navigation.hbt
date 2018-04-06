@@ -1,6 +1,6 @@
 <ul class="site-nav">
   <li><a href="/" title="{{meta_title}}">Home</a></li>
-  <li><a href="/about" title="{{meta_title}}: ">About</a></li>
-  <li><a href="http://resume.peterdemartini.com" title="{{meta_title}}">Resume</a></li>
-  <li><a href="/connect" title="Page: Connect">Connect</a></li>
+  <li><a href="/about" title="About Peter DeMartini">About</a></li>
+  <li><a href="https://medium.com/@peterdemartini" title="View my blog">Blog</a></li>
+  <li><a href="/connect" title="Connect with Me">Connect</a></li>
 </ul>

@@ -1,6 +1,6 @@
 {{> no-info-header}}
 
-<article class="content post page">
+<article class="post page">
   <h1 class="post-title">{{title}}</h1>
   <section class="post-content">
     {{#if image}}
