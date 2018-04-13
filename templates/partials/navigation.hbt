@@ -2,6 +2,5 @@
   <li><a href="/" title="{{meta_title}}">Home</a></li>
   <li><a href="/about" title="About Peter DeMartini">About</a></li>
   <li><a href="https://medium.com/@peterdemartini" title="View my blog">Blog</a></li>
-  <li><a href="https://github.com/peterdemartini" title="Check out my Github account">Github</a></li>
   <li><a href="/connect" title="Connect with Me">Connect</a></li>
 </ul>
