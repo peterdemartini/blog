@@ -9,7 +9,7 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
-  target-branch: target-branch
+  target-branch: gh-pages
   fqdn: peterdemartini.com
   email: thepeterdemartini@gmail.com
   name: Deploy Bot
