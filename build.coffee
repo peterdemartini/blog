@@ -6,9 +6,6 @@ permalinks  = require 'metalsmith-permalinks'
 templates   = require 'metalsmith-templates'
 debug       = require('debug')('peterdemartini:build')
 
-metadata   = require './metadata'
-collectionsMetadata = require './collections-metadata'
-
 require './handlebars-config'
 
 class Builder
@@ -19,8 +16,19 @@ class Builder
 
     MetalSmith(__dirname)
       .use drafts()
-      .use collections(collectionsMetadata)
-      .metadata metadata
+      .use collections({
+        pages:
+          pattern: 'content/pages/*.md'
+        posts:
+          pattern: 'content/posts/*.md',
+          sortBy: 'date',
+          reverse: true
+      })
+      .metadata {
+        meta_title: 'Peter DeMartini'
+        meta_description: "I am a husband, a father, and a Software Craftsman. I build because I love it, not because it is my job."
+        meta_author: 'Peter DeMartini'
+      }
       .use markdown()
       .use permalinks(pattern: ':title')
       .use templates(engine: 'handlebars')

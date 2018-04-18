@@ -1,12 +1,12 @@
 gulp = require 'gulp'
 webserver = require 'gulp-webserver'
-Builder = require './build'
+Builder = require './build.coffee'
 
 gulp.task 'build', (callback) =>
   builder = new Builder
   builder.run callback
 
-gulp.task 'run', ['build'], =>
+gulp.task 'start', ['build'], =>
   gulp.src './build'
     .pipe webserver({
       livereload: false
